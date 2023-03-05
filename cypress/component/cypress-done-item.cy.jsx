@@ -2,7 +2,7 @@ import React from 'react';
 import { mount } from 'cypress/react18';
 import App from "../../src/App";
 
-describe('a', () => {
+describe('to done', () => {
   it('add to do', () => {
     mount(<App />)
     cy.get('#add-todo').type('input ok{enter}')
